@@ -11,6 +11,11 @@
     },
     {
       "output": "./",
+      "name": "ProductiveRage.Immutable.Collections.meta.js",
+      "files": [ "$(OutputPath)/ProductiveRage.Immutable.Collections.meta.js" ]
+    },
+    {
+      "output": "./",
       "name": "ImmutableJs.js",
       "files": [ "ImmutableJs.js" ]
     }
