@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>ProductiveRage.Immutable.Collections</id>
-    <version>1.0.0</version>
+    <version>1.2.0</version>
     <title>ProductiveRage.Immutable.Collections (for Bridge.NET)</title>
     <authors>ProductiveRage</authors>
     <owners>ProductiveRage</owners>
@@ -15,6 +15,7 @@
     <tags>C# bridge bridge.net bridge.immutable immutable</tags>
     <dependencies>
       <dependency id="Bridge.Min" version="16.6.1" />
+      <dependency id="Bridge.Newtonsoft.Json.1.4.0" version="1.4.0" />
       <dependency id="ProductiveRage.Immutable" version="2.9.5" />
     </dependencies>
   </metadata>

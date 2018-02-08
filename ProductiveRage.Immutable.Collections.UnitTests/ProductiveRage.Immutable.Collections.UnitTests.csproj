@@ -44,6 +44,9 @@
     <Reference Include="Bridge.QUnit, Version=1.11.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Bridge.QUnit.1.11.0\lib\net40\Bridge.QUnit.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bridge.Newtonsoft.Json.1.4.0\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="ProductiveRage.Immutable, Version=2.9.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ProductiveRage.Immutable.2.9.5\lib\net40\ProductiveRage.Immutable.dll</HintPath>
     </Reference>

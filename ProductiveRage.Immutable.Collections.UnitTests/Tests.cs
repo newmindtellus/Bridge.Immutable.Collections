@@ -1,4 +1,5 @@
 ﻿using Bridge.QUnit;
+using Newtonsoft.Json;
 
 namespace ProductiveRage.Immutable.Collections.UnitTests
 {
@@ -7,6 +8,7 @@ namespace ProductiveRage.Immutable.Collections.UnitTests
 		private static void Main()
 		{
 			IntKeyMapTests();
+			IntKeyMapSerialisationTests();
 			StructKeyMapTests();
 			ClassKeyMapTests();
 		}
@@ -134,6 +136,28 @@ namespace ProductiveRage.Immutable.Collections.UnitTests
 					.AddOrUpdate(new MyCompositeId(123, "test"), "xyz");
 				assert.Equal(map.GetIfPresent(new MyCompositeId(123, "test")), "xyz");
 				assert.Equal(map.Count, 1);
+			});
+		}
+
+		private static void IntKeyMapSerialisationTests()
+		{
+			QUnit.Module("Int-Key Map Serialisation Tests");
+
+			QUnit.Test("Single item serialised", assert =>
+			{
+				var map = Map<int, string>.Empty.AddOrUpdate(123, "abc");
+				assert.Equal(
+					JsonConvert.SerializeObject(map),
+					"[{\"Key\":123,\"Value\":\"abc\"}]"
+				);
+			});
+
+			QUnit.Test("Single item deserialised", assert =>
+			{
+				var json = "[{\"Key\":123,\"Value\":\"abc\"}]";
+				var map = JsonConvert.DeserializeObject<Map<int, string>>(json);
+				assert.Equal(map.Count, 1);
+				assert.Equal(map.GetIfPresent(123), "abc");
 			});
 		}
 
