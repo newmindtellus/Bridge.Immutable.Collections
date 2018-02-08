@@ -1,0 +1,6 @@
+# (Bridge.NET) ProductiveRage.Immutable.Collections
+The [ProductiveRage.Immutable/Bridge.Immutable](https://github.com/ProductiveRage/Bridge.Immutable) library makes it easier to create with and work with imutable classes in [Bridge.NET](http://bridge.net/) and introduced **Optional&lt;T&gt;** and **NonNullList&lt;T&gt;** types but there are other immutable collection types that are useful once you start writing writing immutable-by-default data structures.
+
+Rather than implement any more myself, this library uses [Facebook's Immutable](https://facebook.github.io/immutable-js/) JavaScript library but puts a more C#-style interface on top, where appropriate (and returns **Optional&lt;T&gt;** value from functions that may or may not return a value, such as the "GetIfPresent" function on the **Map** class).
+
+This library will not necessarily expose *all* of the Facebook library's functionality or types, I will be adding data structures as I find them useful and trying to ensure that their interfaces are consistent

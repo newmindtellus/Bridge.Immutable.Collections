@@ -1,0 +1,18 @@
+{
+  "output": "$(OutDir)/",
+  "cleanOutputFolderBeforeBuild": true,
+
+  "fileName": "ProductiveRage.Immutable.Collections.js",
+  "resources": [
+    {
+      "output": "./",
+      "name": "ProductiveRage.Immutable.Collections.js",
+      "files": [ "$(OutputPath)/ProductiveRage.Immutable.Collections.js" ]
+    },
+    {
+      "output": "./",
+      "name": "ImmutableJs.js",
+      "files": [ "ImmutableJs.js" ]
+    }
+  ]
+}

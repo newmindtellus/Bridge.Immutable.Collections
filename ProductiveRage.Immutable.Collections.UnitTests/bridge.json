@@ -1,0 +1,5 @@
+{
+  "output": "Bridge/output",
+  "combineScripts": true,
+  "cleanOutputFolderBeforeBuild": true
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductiveRage.Immutable.Collections", "ProductiveRage.Immutable.Collections\ProductiveRage.Immutable.Collections.csproj", "{166E0D0A-18C8-40A4-B2DB-4EDECD72DF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductiveRage.Immutable.Collections.UnitTests", "ProductiveRage.Immutable.Collections.UnitTests\ProductiveRage.Immutable.Collections.UnitTests.csproj", "{74B9DA51-2CAC-4385-8615-1276FFC16731}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{166E0D0A-18C8-40A4-B2DB-4EDECD72DF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166E0D0A-18C8-40A4-B2DB-4EDECD72DF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166E0D0A-18C8-40A4-B2DB-4EDECD72DF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166E0D0A-18C8-40A4-B2DB-4EDECD72DF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B9DA51-2CAC-4385-8615-1276FFC16731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B9DA51-2CAC-4385-8615-1276FFC16731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B9DA51-2CAC-4385-8615-1276FFC16731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B9DA51-2CAC-4385-8615-1276FFC16731}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEE4E9B5-5547-40AF-87F8-BC9EECADD02C}
+	EndGlobalSection
+EndGlobal
