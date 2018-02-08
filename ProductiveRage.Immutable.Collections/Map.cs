@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Bridge;
 using Newtonsoft.Json;
 
-namespace ProductiveRage.Immutable.Collections
+namespace ProductiveRage.Immutable
 {
 	// This backs onto the ImmutableJs library but it's not a direct binding because I want to favour a more C#-style interface and to use the ProductiveRage.Immutable "Optional" type for cases where we may or may
 	// not be returning a value (from GetIfPresent, for example)

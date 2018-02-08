@@ -7,7 +7,7 @@
     <ProjectGuid>{166E0D0A-18C8-40A4-B2DB-4EDECD72DF73}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProductiveRage.Immutable.Collections</RootNamespace>
+    <RootNamespace>ProductiveRage.Immutable</RootNamespace>
     <AssemblyName>ProductiveRage.Immutable.Collections</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
