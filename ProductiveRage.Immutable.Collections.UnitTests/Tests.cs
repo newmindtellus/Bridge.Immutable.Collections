@@ -49,6 +49,7 @@ namespace ProductiveRage.Immutable.Collections.UnitTests
 					.AddOrUpdate(123, "abc")
 					.AddOrUpdate(123, "xyz");
 				assert.Equal(map.GetIfPresent(123), "xyz");
+				assert.Equal(map.Count, 1);
 			});
 		}
 
@@ -90,6 +91,7 @@ namespace ProductiveRage.Immutable.Collections.UnitTests
 					.AddOrUpdate(new MyKey(123), "abc")
 					.AddOrUpdate(new MyKey(123), "xyz");
 				assert.Equal(map.GetIfPresent(new MyKey(123)), "xyz");
+				assert.Equal(map.Count, 1);
 			});
 		}
 
@@ -131,6 +133,7 @@ namespace ProductiveRage.Immutable.Collections.UnitTests
 					.AddOrUpdate(new MyCompositeId(123, "test"), "abc")
 					.AddOrUpdate(new MyCompositeId(123, "test"), "xyz");
 				assert.Equal(map.GetIfPresent(new MyCompositeId(123, "test")), "xyz");
+				assert.Equal(map.Count, 1);
 			});
 		}
 

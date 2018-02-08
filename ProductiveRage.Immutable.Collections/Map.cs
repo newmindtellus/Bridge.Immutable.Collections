@@ -18,7 +18,7 @@ namespace ProductiveRage.Immutable.Collections
 			_map = map;
 		}
 
-		public uint Size
+		public uint Count
 		{
 			get { return (uint)Script.Write<int>("{0}.size", _map); } // Cast from JavaScript number to uint so that we definitely get a uint returned in case anyone wants to do type checking on the value
 		}
