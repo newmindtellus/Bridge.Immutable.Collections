@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>ProductiveRage.Immutable.Collections</id>
-    <version>3.1.0</version>
-    <title>ProductiveRage.Immutable.Collections (for Bridge.NET)</title>
+    <id>Bridge.Immutable.Collections</id>
+    <version>3.1.1</version>
+    <title>Bridge.Immutable.Collections (for Bridge.NET)</title>
     <authors>ProductiveRage</authors>
     <owners>ProductiveRage</owners>
     <licenseUrl>https://github.com/NewmindTellus/Bridge.Immutable.Collections/blob/master/LICENSE</licenseUrl>
@@ -16,7 +16,7 @@
     <dependencies>
       <dependency id="Bridge.Min" version="17.7.0" />
       <dependency id="Bridge.Newtonsoft.Json" version="1.13.0" />
-      <dependency id="ProductiveRage.Immutable" version="4.2.0" />
+      <dependency id="Bridge.Immutable" version="4.2.1" />
     </dependencies>
   </metadata>
   <files>
